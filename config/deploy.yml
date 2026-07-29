@@ -24,9 +24,9 @@ ssh:
 #
 # Don't use this when deploying to multiple web servers (then you have to terminate SSL at your load balancer).
 #
-# proxy:
-#   ssl: true
-#   host: app.example.com
+proxy:
+  ssl: true
+  host: ec2-54-66-112-221.ap-southeast-2.compute.amazonaws.com
 
 # Where you keep your container images.
 registry:
