@@ -7,7 +7,7 @@ image: danielpisc/kamalbasicdocker
 # Deploy to these servers.
 servers:
   web:
-    - 54.66.112.221
+    - kamal.systima.com.au
 
 ssh:
   user: ubuntu
@@ -26,7 +26,7 @@ ssh:
 #
 proxy:
   ssl: true
-  host: ec2-54-66-112-221.ap-southeast-2.compute.amazonaws.com
+  host: kamal.systima.com.au
 
 # Where you keep your container images.
 registry:
